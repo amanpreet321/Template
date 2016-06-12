@@ -1,9 +1,8 @@
 body{
-    @include background(linear-gradient(red, green) left no-repeat);
-    background-size: contain;
+background-color: aliceblue;
 }
 .box{
-    background: pink;
+    background-color: pink;
     display: block;
     margin:10px;
     @include size(100px);
