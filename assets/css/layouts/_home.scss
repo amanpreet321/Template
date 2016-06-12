@@ -1,0 +1,10 @@
+body{
+    @include background(linear-gradient(red, green) left no-repeat);
+    background-size: contain;
+}
+.box{
+    background: pink;
+    display: block;
+    margin:10px;
+    @include size(100px);
+}
